@@ -1,0 +1,16 @@
+spring:
+  profiles.active: default
+
+---
+spring:
+  profiles: default
+  jmx.enabled: false
+  
+source:
+  scheduledJob: 
+    enabled: true
+  file:
+    dir: D:/filestobezipped
+  zippedFile:
+   dir: D:/zippedfiles/poc.zip  
+  
